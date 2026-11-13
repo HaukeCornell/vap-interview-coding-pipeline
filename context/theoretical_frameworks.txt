@@ -1,0 +1,65 @@
+Primary theoretical lens: Values at Play (VAP)
+Source: Flanagan, M., Howe, D. C., & Nissenbaum, H. (2005); Flanagan & Nissenbaum (2014, *Values at Play in Digital Games*, MIT Press).
+
+The framework distinguishes three phases. The PiTech workshop covered all three but focused fellows' work on Discovery and Implementation; Verification was rarely reached.
+
+═══════════════════════════════════════════════════════════
+PHASE 1: DISCOVERY
+Identify which values are at stake in the project.
+═══════════════════════════════════════════════════════════
+
+A heuristic moves designers across five sources of values:
+  - From the **functional description** — values inherent in what the system does
+  - From **stakeholders** — values held by or affecting different groups (users, operators, third parties, host org staff)
+  - From the **organization's mission** — explicit organizational values
+  - From **collateral constraints** — values introduced by material / bureaucratic / technical limitations (compliance, vendor lock-in, resource limits, data availability)
+  - From **societal context** — values surfaced by broader social dynamics (laws, movements, equity concerns)
+
+Then designers **operationalize** their key values: turn an abstract value (e.g., "Privacy") into a concrete project-specific definition (e.g., "Privacy = absence of the feeling of surveillance").
+
+═══════════════════════════════════════════════════════════
+PHASE 2: IMPLEMENTATION
+Translate values into design specifications.
+═══════════════════════════════════════════════════════════
+
+Operationalized values are translated into specific technical requirements via a **Value Hierarchy Tree**:
+  abstract value → norm → technical requirement.
+
+When two values' requirements clash — what Gray & Chivukula (2019) call **"ethical design complexity"** — fellows resolve the tension using one of three strategies (intended to avoid "moral paralysis"):
+
+  - **Dissolution** — innovative design move that sidesteps the conflict (e.g., switch sensor modality so visual-privacy vs. continuous-monitoring no longer trade off).
+  - **Compromise** — both values partially satisfied; neither maximized (e.g., environmental sensors *and* a "pause" button).
+  - **Trade-off** — consciously prioritize one value, accept the cost to the other (e.g., refuse to record video data, accept slower model improvement).
+
+═══════════════════════════════════════════════════════════
+PHASE 3: VERIFICATION (rarely covered in this corpus)
+Test whether the implementation actually realizes the intended values.
+═══════════════════════════════════════════════════════════
+
+Fellows generally did not reach this phase before the fellowship ended.
+
+═══════════════════════════════════════════════════════════
+RELATED LITERATURE TO HOLD IN MIND (not the lens, but adjacent)
+═══════════════════════════════════════════════════════════
+
+- Friedman & Hendry (2019), *Value Sensitive Design*: shares much methodological vocabulary; VAP is often described as a sibling.
+- Chivukula et al. (2024), "Surveying a Landscape of Ethics-Focused Design Methods" (ACM JRC): situates VAP among many similar frameworks; useful when fellows compare to other methods they know.
+- Shilton (2013), "Values Levers": ethics happens via specific situated triggers — useful when a fellow describes a moment of value-talk that wasn't framework-driven.
+- Sengers et al. (2005), "Reflective Design": the wider tradition of ethics-as-reflection.
+- Wong, Boyd, Metcalf, Shilton (2020), "Beyond Checklist Approaches to Ethics in Design": cautions against reducing ethics to compliance checklists — relevant when fellows describe VAP as either freeing them from or risking that fate.
+- Loke & Matthews (2020): ethics scaffolding in design education.
+
+═══════════════════════════════════════════════════════════
+APPLICATION TO CODING
+═══════════════════════════════════════════════════════════
+
+Use the framework as a *vocabulary* for grounding codes — not as a coding scheme. Examples of how framework terms map to coding:
+
+- "Discovery" → look for talk about *finding* values, including values the fellow didn't expect.
+- "Operationalization" → look for the move from abstract to concrete; struggle to define "what dignity actually means here."
+- "Value tension" → conflicts between two values' requirements (this is the heart of most cases).
+- "Resolution strategy" → which of dissolution / compromise / trade-off was used, and what made it possible or not.
+- "Bureaucracy" (RQ2) → instances where the framework feels like overhead, paperwork, an extra step.
+- "Timing" — emerging cross-cutting theme — when the framework was introduced relative to project lifecycle.
+
+If a fellow uses the framework's terms (e.g., "I think this was a compromise"), code both the framework term AND the substantive content. If they describe the same concept in their own words, code the substantive content and let synthesis decide whether to bridge to the framework term.

@@ -1,0 +1,29 @@
+Project: Values in Public Interest Tech: Practicing Conscientious Design
+Venue: Interacting with Computers special issue on "Design Ethics in HCI: A Turn to Practice"
+Full paper deadline: 2026-05-13 (AoE)
+
+Two anchor research questions plus a third, looser exploratory question:
+
+RQ1 — Discovery / Awareness:
+Does the use of the Values at Play (VAP) framework help designers uncover values they were not effectively aware of?
+- Did fellows find values they had been treating as "background noise" or were entirely unaware of?
+- How did the framework change their understanding of "risk" or "success" in their project?
+
+RQ2 — Productivity / Resolution:
+Does the framework encourage productive, focused value embedding and conflict resolution rather than added bureaucracy?
+- Did "thinking with values" provide a clear path to a design decision?
+- Can fellows describe a "conscientious design" moment where they felt they were no longer "accidentally inheriting" an ethical trade-off but making a conscious choice?
+- Where did the framework feel like overhead with no payoff?
+
+RQ3 — General insights about VAP-in-practice (looser, exploratory):
+What broader insights emerge from these autoethnographic reflections about doing ethics-thinking in fast-paced public interest tech projects? Examples of things in scope:
+- The fellow's leverage / position relative to the host org (implementer vs. designer vs. researcher; what they could and could not push back on)
+- Pace and timing — when in the project lifecycle did the framework get introduced, and what did that timing afford or foreclose?
+- Host org dynamics that shape value work (chains of approval, advocacy posture, mission alignment, technical-debt vs. compliance pressures)
+- What the framework did NOT help with — places where VAP felt orthogonal, redundant, or inadequate
+- How fellows talk about values when they are NOT prompted by the framework (their own folk ethics)
+
+A pre-existing observation worth tracking explicitly: framework feedback is generally positive, BUT timing of introduction is crucial — fellows surface this often. Code for "timing" / "framework comes too late" / "framework would help most at project intake" patterns wherever they appear.
+
+Note on stance:
+We are not married to RQ1 and RQ2 in their current phrasing. If coding surfaces a more interesting reframing, the synthesis and report agents should flag it for human consideration rather than forcing data into the existing wording.

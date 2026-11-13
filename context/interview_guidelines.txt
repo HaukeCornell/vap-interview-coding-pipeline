@@ -1,0 +1,58 @@
+PiTech VAP Retro Interviews — Interview Script (semi-structured, ~30–60 min)
+
+Interviewers: Interviewer 1 and Interviewer 2.
+Per Cornell IRB determination, this is non-human-subjects research — fellows participate as collaborating co-authors, not as research subjects. Interviews are co-authored autoethnographic reflections; no formal IRB. Recordings are kept for internal note-taking only and deleted within ~1 month of transcription.
+
+The interview is loosely structured around the script below. In practice, the conversation often goes off-script — fellows take it where it's most relevant to their case. The interviewer typically anchors the conversation in the fellow's own case write-up (drawn from `case_studies/<Fellow>.md`).
+
+----- Opening -----
+
+- Thanks for making time.
+- The goal is really just to look back and go through the case to make sure we understand the project, the relevant background context, and, more importantly, what work the VAP framework might have done in your project.
+- Ask permission for recording the conversation. Internal purposes only; deleted within a month once transcribed.
+  - Co-authored as autoethnographic reflections, so no formal IRB.
+
+----- Core questions -----
+
+1) Talk me through when values came up — e.g. [interviewer cites a specific moment from the fellow's case write-up].
+   - Who was in the room? What was said?
+   - How did decisions [around values] get made?
+
+2) Walk me through the tension between [two values from their case write-up].
+   - Imagine you hadn't navigated or named this tension within the VAP framework — what would have happened?
+   - If a teammate had pushed back on one of your value-driven decisions, do you think pointing to the framework would have helped the conversation? Why or why not?
+
+3) Did operationalizing any value *change* your understanding of what your project was about — not just add detail, but reframe it?
+   - PROBE: At what point did that shift happen — during the canvas, after, in conversation with someone?
+
+4) When you were filling out the canvas and the case study template, did it feel like you were finding values or organizing values you had already been aware of?
+   - PROBE: What specifically surfaced it — a stakeholder prompt, the collateral-constraints prompt, something else?
+   - Where in the process did the framework feel like bureaucracy — where filling it in took time but didn't change anything downstream?
+   - Looking back, is there a value you'd add now that wasn't on your canvas? Why did the framework not catch it?
+   - Was there something the framework produced that was genuinely surprising to you?
+
+----- Push back -----
+
+- Was there anything about your project or doing ethics in PiTech that made the VAP framework hard to apply?
+- Any other feedback about using Values at Play for PiTech?
+- Is there anything we should've done differently?
+
+----- If time allows: Verification -----
+
+- How would you evaluate whether the project aligns with the values?
+
+----- Cross-cutting framing the interviewer often surfaces -----
+
+- "Values at play as a sensemaking activity" — not only what was done, but also whether the framework gave designers conceptual tools for making sense of conflict and tensions in the moment.
+- The role of organizational decision-making processes (chains of approval, who needs to be brought on board) and how those interact with which values get articulated.
+- Where the framework helps less: when the project is *not* a technical system anymore (cf. one fellow: "conflict dissolution is harder when you're not actually designing a technical system").
+
+----- Tailoring per fellow -----
+
+The interviewer adapts the generic prompts above by inserting the fellow's specific value tensions. For example, with Fellow B (Org B): "tension between equal access and inclusion"; with one fellow (Org E): the catastrophic/quality dimensions of the translation evaluation rubric and the involvement of MOIA / vendor / supervisor in shaping it.
+
+----- What's NOT in scope -----
+
+- These are not user studies of the workshop; we are not measuring learning outcomes.
+- We are not generalizing to all PiTech fellows or all public interest tech work — these are situated reflections on specific projects.
+- The fellow's overall opinion of the workshop *as a class* matters less than what the framework did or didn't do for their specific design decisions.

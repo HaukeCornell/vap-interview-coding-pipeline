@@ -19,13 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-This repository adapts the Qualitative Research Analysis System by Urs Chalupny
-(https://github.com/Theurrien/qualitative-research-analysis), which its author
-provides "as-is for research and educational purposes" and asks users to cite,
-to describe the methodology transparently in their methods section, and to
-follow their institution's guidelines for AI-assisted research. Those terms
-continue to apply to the parts taken from the original; the MIT License above
-covers this adaptation.

@@ -26,7 +26,7 @@ The system is a trimmed adaptation of the *Qualitative Research Analysis System*
 - a coder prompt written for the Values at Play framework and the study's research questions;
 - `export_annotated_transcripts.py`, which writes the annotated transcripts as a Word document for the supplementary material.
 
-The original system is provided by its author "as-is for research and educational purposes", with the request that users describe the methodology transparently in their methods section, cite it, and follow their institution's guidelines for AI-assisted research. The paper does all three, and we pass the request on. This adaptation is released under the MIT License (`LICENSE`); the parts taken from the original remain under its author's terms.
+The original system is provided by its author "as-is for research and educational purposes", with the request that users describe the methodology transparently in their methods section, cite it, and follow their institution's guidelines for AI-assisted research. The paper does all three, and we pass the request on. This adaptation is released under the MIT License (`LICENSE`); the parts taken from the original remain under its author's terms, reproduced in `NOTICE`.
 
 ## How it was used for the paper
 

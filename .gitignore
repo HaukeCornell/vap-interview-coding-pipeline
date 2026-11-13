@@ -1,8 +1,3 @@
-# raw data and run state never belong in this repository
-interviews/
-case_studies/
-state/
-output/
-outputs/
+.DS_Store
 __pycache__/
-.claude/settings.local.json
+**/.claude/settings.local.json

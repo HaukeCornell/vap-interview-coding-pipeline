@@ -1,0 +1,17 @@
+Overarching Research Question:
+How does generative AI influence the design autonomy and skill development of novice interaction designers in a university prototyping course (IDD)?
+
+Sub-questions:
+
+RQ1 — Decisional Autonomy:
+When AI generates most design outputs, do students' design decisions reflect their authentic desires and visions, or do they predominantly accept AI's path of least resistance?
+- Are choices grounded in the student's own design intentions (internalist authenticity)?
+- Or do choices primarily reflect what AI makes easy/possible (externalist — wrong causal history)?
+
+RQ2 — Practical Autonomy:
+How do students recapture practical control when AI's technical capabilities exceed their own?
+- What strategies do students use to transform AI outputs into "their" designs?
+- When does "editing down AI slop" constitute genuine practical agency versus passive curation?
+
+RQ3 — Technical Competence & Skill Development:
+How does AI-mediated design affect students' development of foundational skills and ability to articulate design rationale?

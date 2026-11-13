@@ -1,48 +1,38 @@
-# Interview coding pipeline for "Values in Public Interest Tech: Practicing Conscientious Design"
+# Interview coding pipeline
 
-This repository holds the qualitative coding pipeline used for the paper *Values in Public Interest Tech: Practicing Conscientious Design* (Interacting with Computers, special issue "Design Ethics in HCI: A Turn to Practice"). It is published so that readers can see exactly what the language-model coders were asked to do, how the human checkpoints worked, and how the annotated transcripts in the supplementary material were produced. It contains no interview data.
+Two qualitative coding pipelines that run inside [Claude Code](https://docs.claude.com/claude-code): language-model coder agents propose codes for interview transcripts, one transcript at a time, and the researchers decide every code-system change at a checkpoint before the next transcript is coded. The repository is published so that readers of the two papers below can see exactly what the coders were asked to do, how the checkpoints worked, and how the annotated transcripts and affinity cards were produced. It contains no interview data.
 
-## What is in here
+| Folder | Study | Data | Coders per transcript | Result of the coding pass |
+|---|---|---|---|---|
+| `vap-public-interest-tech/` | Values at Play in public interest technology fellowships. Paper: *Values in Public Interest Tech: Practicing Conscientious Design*, Interacting with Computers (in revision). | 7 retrospective interviews with fellows, coded 30 April to 4 May 2026 | 2 agents, then two researchers at every checkpoint | code system v1.7, 107 codes in 8 clusters; 84 retained and grouped into themes by the authors by hand |
+| `idd-genai-design-autonomy/` | Students' design autonomy in an AI-assisted interactive device design course. Manuscript under review (2026). | 18 individual interviews with students of a Fall 2025 course, coded 13 March to 16 April 2026 | 3 agents, then the researchers at every checkpoint | code system v1.9, 91 codes in 4 clusters; affinity diagramming by hand on cards built from the coded segments |
 
-| Path | Purpose |
-|---|---|
-| `.claude/commands/analyze.md` | The orchestrator. Run as `/analyze` inside Claude Code. For each transcript it normalizes the file, runs two coder agents independently, writes a synthesis of their agreements and disagreements, and stops at a checkpoint file for the human researchers to accept, rename, merge, or reject every proposed code before the next transcript is coded. |
-| `.claude/agents/format-adapter.md` | Converts a transcript (VTT, txt, json, docx) into the segment schema in `CODER_SCHEMA.md`. |
-| `.claude/agents/coder.md` | The coder agent. Two instances code each transcript independently, segment by segment, against the current code system and may propose new codes. |
-| `.claude/agents/synthesis.md` | Compares the two coders' outputs and drafts the checkpoint questions. |
-| `.claude/agents/codebook-generator.md`, `report-writer.md`, `data-exporter.md` | Produce the codebook (JSON, Markdown, docx), an analytical report, and CSV exports after the last checkpoint. |
-| `CODER_SCHEMA.md` | The JSON schema every coder output must follow. |
-| `context/` | What the coders were told about the study: the research questions, the theoretical frame (Values at Play), and the interview script. |
-| `export_annotated_transcripts.py` | Builds the annotated-transcript document (every segment followed by its code tags) from the coder outputs. |
+Each folder is a complete Claude Code project: open it, add transcripts, run `/analyze`. Its README lists every file and how the study used it.
 
-Expected but ignored directories: `interviews/` (raw transcripts), `case_studies/` (background context for the coders), `state/` (normalized transcripts, coder outputs, checkpoints, the evolving code system), `output/` and `outputs/` (exports).
+## Provenance and what is shared
 
-## Provenance
+Both pipelines adapt the *Qualitative Research Analysis System* by Urs Chalupny (https://github.com/Theurrien/qualitative-research-analysis, November 2025): a format adapter, three parallel coder agents, a synthesis agent, a human checkpoint after every transcript, and codebook, report, and export agents at the end.
 
-The system is a trimmed adaptation of the *Qualitative Research Analysis System* written by Urs Chalupny (https://github.com/Theurrien/qualitative-research-analysis, November 2025), which runs three coder agents with human checkpoints. The first author first adapted that system for an unrelated study (three coders). This version differs from the original in four ways:
+The files `synthesis.md`, `codebook-generator.md`, `report-writer.md`, and `data-exporter.md` are the original's, unchanged, in both studies. The format adapter is the original's in study 2 and gains a VTT branch in study 1. The remaining files were written by the first author, first for study 2 and then adapted for study 1:
 
-- two coder agents per transcript instead of three, with the two human researchers reviewing every checkpoint;
-- a format adapter that accepts VTT transcripts and normalizes interviewer turns;
-- a coder prompt written for the Values at Play framework and the study's research questions;
-- `export_annotated_transcripts.py`, which writes the annotated transcripts as a Word document for the supplementary material.
+| File | Study 2 (base) | Study 1 (adapted from study 2) |
+|---|---|---|
+| `coder.md` | Rewritten: coders read the normalized transcript themselves, code segment by segment against a compact `code_id: code_name` list, look up full definitions in `state/code_system.json` when needed, and write their own output file in the schema below. | Same mechanics, with a prompt written for the Values at Play framework, the study's research questions, and the fellows' case studies as background. Two coders instead of three, and the coders are told that two human researchers review every checkpoint. |
+| `analyze.md` | The original orchestrator with the compact code list and the coder output paths added. | Two coders; an optional pass over the case-study documents. |
+| `CODER_SCHEMA.md` | New: the segment-level JSON output schema. | Identical. |
+| `export_annotated_transcripts.py` | New: annotated transcripts as a Word document, with `--full`, `--share`, and `--audit` modes. | Trimmed and adapted to the study's files. |
+| `coder-2023.md`, `tools/` | Deductive coder for an earlier cohort; affinity-card builder and the code-token resolver. | Not used. |
 
-The original system is provided by its author "as-is for research and educational purposes", with the request that users describe the methodology transparently in their methods section, cite it, and follow their institution's guidelines for AI-assisted research. The paper does all three, and we pass the request on. This adaptation is released under the MIT License (`LICENSE`); the parts taken from the original remain under its author's terms, reproduced in `NOTICE`.
+## Models
 
-## How it was used for the paper
+Every agent is configured with `model: sonnet`, the Claude Code alias for Anthropic's current Claude Sonnet model. Claude Code's usage statistics on the researcher's machine record only `claude-sonnet-4-6` on 13 March 2026, the first coding day of study 2, so the alias resolved to Claude Sonnet 4.6 at the start of that run. The later coding days (to 16 April 2026 for study 2, and 30 April to 4 May 2026 for study 1) are not logged, and the alias may have pointed to a newer Sonnet release by then. The orchestrating sessions ran under the default model of the researcher's Claude Code installation. The papers' methods sections describe the coding as Claude Sonnet coder agents run through Claude Code, with every code-system decision made by the researchers.
 
-- Seven retrospective interviews (30 to 60 minutes each) were coded between 30 April and 4 May 2026.
-- Each transcript was coded by two coder agents. All six agents are configured with `model: sonnet`, the Claude Code alias for Anthropic's Claude Sonnet model current at that time; the orchestrating session ran under the researchers' default Claude Code model.
-- After the seventh checkpoint the code system was at version 1.7 with 107 codes in eight clusters.
-- The two first authors then re-read all seven transcripts against this codebook by hand, set aside 23 codes, and grouped the remaining 84 into higher-level themes. That second pass was done without language models; its result is the codebook in the paper's supplementary material.
+## License
 
-## Running it
-
-1. Install Claude Code and open this directory.
-2. Put transcripts in `interviews/` and, optionally, background documents in `case_studies/`.
-3. Edit `context/research_question.txt`, `context/theoretical_frameworks.txt`, and `context/interview_guidelines.txt` for your study.
-4. Run `/analyze`. The orchestrator processes one transcript at a time and writes `state/checkpoint_<interview>_pending.md`; fill in your decisions, rename it to `..._resolved.md`, and run `/analyze` again.
-5. After the last checkpoint, run `/analyze` once more to generate the codebook, report, and exports, then `python3 export_annotated_transcripts.py` (add `--full` for the full-transcript variant).
+This adaptation is released under the MIT License (`LICENSE`). The original system is provided by its author "as-is for research and educational purposes", with the request that users describe the methodology transparently, cite it, and follow their institution's guidelines for AI-assisted research; those terms are reproduced in `NOTICE` and continue to apply to the parts taken from the original.
 
 ## Citation
 
-Sandhaus, H., Lee, J. J., Wang, A., Chiang, E., Gosciak, J., Liu, K., Greenstreet, L., Yessenbayev, O., and Nissenbaum, H. *Values in Public Interest Tech: Practicing Conscientious Design.* Interacting with Computers (in revision).
+For study 1: Sandhaus, H., Lee, J. J., Wang, A., Chiang, E., Gosciak, J., Liu, K., Greenstreet, L., Yessenbayev, O., and Nissenbaum, H. *Values in Public Interest Tech: Practicing Conscientious Design.* Interacting with Computers (in revision).
+
+For study 2: the manuscript is under review; cite this repository by its URL until it is published.

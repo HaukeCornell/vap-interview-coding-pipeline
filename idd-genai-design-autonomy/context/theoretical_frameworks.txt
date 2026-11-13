@@ -1,0 +1,69 @@
+Theoretical Lens: Pugh's Two-Dimensional Framework of Autonomy
+Source: Pugh, J. (2020). Autonomy, Rationality, and Contemporary Bioethics. NBK556861.
+
+The framework treats autonomy as having two primary dimensions — Decisional and Practical —
+each with distinct sub-elements. Applied here to student design agency in AI-mediated IDD work.
+
+═══════════════════════════════════════════════════════════
+DIMENSION 1: DECISIONAL AUTONOMY
+Whether the agent is making their own decisions about what to do.
+═══════════════════════════════════════════════════════════
+
+Cognitive Element — pertaining to the agent's beliefs and understanding
+  Agents must act "with understanding" — they cannot form autonomous choices without
+  knowing what the options available to them are like.
+  → In IDD: Does the student understand what the AI is generating and why? Can they
+    articulate the design rationale? Do they know what alternatives exist?
+
+Reflective Element — pertaining to the agent's reflective endorsement of their motivating desire
+  Addresses the authenticity of desires — whether decisions align with the agent's own
+  endorsed values rather than "impostor desires" that feel alien or externally imposed.
+  A properly reflective agent is "reflectively autonomous": their motivating desires are
+  genuinely their own (not distorted by addiction, manipulation, or external conditioning).
+  → In IDD: Did the student adopt AI's design direction because they genuinely preferred
+    it, or because it was the default / path of least resistance? Is the design vision
+    theirs, or the AI's absorbed without critical reflection?
+
+═══════════════════════════════════════════════════════════
+DIMENSION 2: PRACTICAL AUTONOMY
+Whether the agent can act on the basis of their decisions.
+═══════════════════════════════════════════════════════════
+
+Negative Freedom — freedom from debilitating forces that prevent the agent from acting
+  A negative obligation not to restrain the autonomous actions of others; absence of
+  interference, coercion, or debilitating constraints.
+  → In IDD: Is the student constrained by AI tool limitations, skill gaps, or time pressure
+    in ways that prevent them from executing their design intentions?
+
+Positive Freedom — freedom afforded by possession of certain abilities and capacities for action
+  A positive obligation to facilitate an agent's ability to act autonomously; requires
+  actual competence to translate decisions into action.
+  → In IDD: Does the student possess (or develop) the skills to implement their design
+    vision independently? Can they rebuild without AI? Do they understand enough to
+    meaningfully direct AI rather than passively accept output?
+
+═══════════════════════════════════════════════════════════
+SCOPE: LOCAL vs. GLOBAL AUTONOMY
+═══════════════════════════════════════════════════════════
+
+Local autonomy — specific decisions at particular moments
+  → Applies to individual lab/project choices: did AI determine this feature?
+
+Global autonomy — a whole way of designing, assessed across the course
+  → Applies across all labs: does the student's overall design approach reflect their
+    own evolving values and intentions, or a consistent deference to AI defaults?
+
+═══════════════════════════════════════════════════════════
+APPLICATION TO CODING
+═══════════════════════════════════════════════════════════
+
+RQ1 (Decisional) maps to both elements of Dimension 1:
+  - Cognitive: Can the student explain/articulate the AI-generated work?
+  - Reflective: Did they genuinely endorse it, or absorb it by default?
+
+RQ2 (Practical) maps to Dimension 2:
+  - Negative freedom: What constraints prevented executing their vision?
+  - Positive freedom: What capabilities did or didn't they have to act on their decisions?
+
+RQ3 (Skill development) maps to the Positive Freedom element over time (global scope):
+  - Is AI building or eroding the capacities needed for autonomous design action?

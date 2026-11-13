@@ -1,0 +1,57 @@
+Interview Protocol: IDD GenAI Study (60 min)
+Post-class interviews with students from Cornell Tech's Interaction Design course (IDD), conducted after final grades were submitted.
+
+Context: Students built interactive devices across 6 labs + a final project. They used AI tools (primarily Claude, ChatGPT, Cursor/Copilot) throughout. All grading is complete; students were told their answers cannot affect academic standing.
+
+--- SECTION 1: Setup (5 min) ---
+- Confirm consent and recording
+- Ask participant to open final project and any AI chat logs on screen
+
+--- SECTION 2: Final Project Baseline (8 min) ---
+- Walk me through your final project. What were you originally trying to make?
+- Why did you want to design this? How did you come up with the idea?
+- Looking at what you actually built — is this what you envisioned, or did it become something else?
+- If you had a bit more time, skills, and resources, would your project look different?
+- Roughly, how much of the final design/implementation came from your ideas vs. AI suggestions?
+
+--- SECTION 3: Decisional Autonomy — High AI Influence (12 min) ---
+- Show me a project or lab where AI had the MOST influence on design decisions (not just output).
+- How did this happen? What did you ask AI for? What did it give you?
+- Did you go with AI's version because you thought it was better, or because it was easier/faster?
+- How did you iterate with AI? Did you prompt for specific values (fun, creative, minimal)?
+- If AI hadn't suggested this, would you have made something different?
+- When do you decide the implementation is "good enough"?
+
+--- SECTION 3B: Decisional Autonomy — Low AI Influence (contrast) ---
+- Do you have an example where AI suggested something and you rejected it?
+- Show me something where AI had LESS influence — where the final design is closer to what you originally wanted.
+- Why was AI less influential here? Walk me through going from AI output to what you actually wanted.
+
+--- SECTION 4: Practical Autonomy (15 min) ---
+- Can you explain how [high AI influence example] actually works — like if I'm not a programmer?
+- If I took away AI right now and asked you to rebuild [feature], could you? Where would you get stuck?
+- Were there moments where you felt "I have no idea what I'm really doing but it's working"?
+  → If yes: Tell me about that. Did it bother you?
+
+--- SECTION 5: Editing Process (8 min) ---
+- Did you experience generating something with AI and then having to edit it down significantly?
+  → If yes: Show me an example.
+- When you were editing — were you shaping it toward YOUR vision, or making AI's output work?
+- At what point did it feel like it became "yours"?
+
+--- SECTION 6: Authorship (8 min) ---
+- Do you feel like you DESIGNED this project, or ASSEMBLED it from AI and other pieces?
+- If you got $1,000 for this project, how would you split it between: you, teammates, AI?
+- Why did you give AI that amount?
+
+--- SECTION 7: Reflection (4 min) ---
+- Looking back, what did you learn from this class that you'll actually remember?
+- If you taught IDD next year with AI, what would you tell students to do differently?
+- Anything about AI and design we didn't cover?
+
+--- What Each Section Targets ---
+Sections 3/3B → Decisional autonomy (did AI determine the outcome?)
+Section 4    → Practical autonomy (can they execute without AI?)
+Section 5    → Practical autonomy / editing (how do they recapture control?)
+Section 6    → Authorship and legitimacy
+Section 7    → Skill development and meta-reflection

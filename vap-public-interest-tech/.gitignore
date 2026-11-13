@@ -1,0 +1,8 @@
+# raw data and run state never belong in this repository
+interviews/
+case_studies/
+state/
+output/
+outputs/
+__pycache__/
+.claude/settings.local.json

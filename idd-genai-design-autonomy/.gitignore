@@ -1,0 +1,14 @@
+# Interview data and everything derived from it stay out of git.
+interviews/
+interviews_2023/
+state/
+state_2023/
+output/
+output_*/
+outputs/
+export_2023/
+context/Participant_Information/
+data_participants/
+__pycache__/
+.claude/settings.local.json
+.DS_Store
